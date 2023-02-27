@@ -195,3 +195,99 @@ body {
   font-size: 1.6rem;
   color: #717171;
 }
+
+/* PRICES SECTION */
+
+.prices-section {
+  background-color: #fff;
+  padding: 4rem 0 11.5rem;
+}
+
+.prices-section .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+}
+
+.prices-accordeon {
+  width: 33rem;
+  height: 28rem;
+  border: 1px solid #e3e1d5;
+  border-radius: 2rem;
+  padding: 3.4rem 4.1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.plan {
+  width: 25rem;
+  height: 5rem;
+  padding: 1.6rem 4rem;
+  background-color: #edf2ec;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.plan-name {
+  font-size: 2rem;
+  color: #000;
+  font-weight: 700;
+}
+
+.plan-icon {
+  width: 12px;
+  height: 12px;
+  padding: 4px;
+  background-color: #d9d9d9;
+  color: #717171;
+  border-radius: 50%;
+}
+
+/* .prices-column--middle {
+  grid-column: 1/2;
+} */
+
+.prices-column--left {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 6rem;
+}
+
+.prices-column--right {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: space-between;
+}
+
+.heading--secondary-sans {
+  font-size: 4rem;
+  color: #000;
+  font-weight: 700;
+}
+
+.heading--secondary-sans span {
+  color: #499a18;
+}
+
+.btn--prices {
+  width: 16.2rem;
+  height: 5rem;
+  background-color: #fff;
+  border: 1px solid #e06733;
+  border-radius: 5px;
+  color: #e06733;
+  font-family: "Inika", serif;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.prices-img {
+  width: 15.2rem;
+  height: 17.5rem;
+}
