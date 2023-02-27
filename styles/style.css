@@ -13,24 +13,26 @@ body {
   background-color: #edf2ec;
 }
 
+/* HEADER SECTION */
+
 .header {
   padding: 4.2rem 0;
 }
 
 .container {
   padding: 0 11rem;
+  display: flex;
+}
+
+.header .container {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .logo {
   width: 8rem;
   height: 2rem;
-}
-
-.navigation {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
 }
 
 .navigation ul {
@@ -51,4 +53,54 @@ body {
 .nav-link span {
   color: #e06733;
   font-weight: 700;
+}
+
+/* WELCOME SECTION */
+
+.welcome-section {
+  padding: 6.2rem 0;
+}
+
+.welcome-section .container {
+  gap: 22.4rem;
+}
+
+.img--welcome {
+  width: 44.8rem;
+  height: 40.7rem;
+}
+
+.welcome-text {
+  flex-basis: 55rem;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.heading--primary {
+  font-size: 4.5rem;
+  color: #717171;
+  margin-bottom: 4.2rem;
+  line-height: 1.1;
+}
+
+.heading--primary span {
+  color: #499a18;
+}
+
+.description {
+  color: #636060;
+  font-size: 2rem;
+  line-height: 1.7;
+}
+
+.btn--welcome {
+  background-color: #edf2ec;
+  color: #000;
+  border: 2px solid #e06733;
+  padding: 1.1rem 2.4rem;
+  border-radius: 1rem;
+  font-size: 1.6rem;
+  width: 15.8rem;
+  margin-top: 4.8rem;
 }
