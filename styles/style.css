@@ -104,3 +104,35 @@ body {
   width: 15.8rem;
   margin-top: 4.8rem;
 }
+
+/* ABOUT SECTION */
+
+.about-section {
+  background-color: #fff;
+  padding: 9.3rem 0;
+}
+
+.about-section .container {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about-text {
+  flex-basis: 60.5rem;
+}
+
+.heading--secondary-serif {
+  color: #499a18;
+  font-family: "Inika", serif;
+  font-size: 4rem;
+  font-weight: 400;
+}
+
+.heading--secondary-serif span {
+  color: #e06733;
+}
+
+.img--about {
+  width: 46.4rem;
+  height: 48rem;
+}
