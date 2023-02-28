@@ -20,6 +20,10 @@ body {
   padding: 4.2rem 0;
 }
 
+.section {
+  width: 144rem;
+}
+
 .container {
   padding: 0 11rem;
   margin: 0 auto;
@@ -57,13 +61,17 @@ body {
   font-weight: 700;
 }
 
+.nav-link:hover {
+  border-bottom: 1px solid #000;
+}
+
 /* WELCOME SECTION */
 
-.welcome-section {
+.welcome {
   padding: 6.2rem 0;
 }
 
-.welcome-section .container {
+.welcome .container {
   gap: 22.4rem;
   display: flex;
 }
@@ -108,14 +116,19 @@ body {
   margin-top: 4.8rem;
 }
 
+.btn--welcome:hover {
+  background-color: #e06733;
+  color: #fff;
+}
+
 /* ABOUT SECTION */
 
-.about-section {
+.about {
   background-color: #fff;
   padding: 9.3rem 0;
 }
 
-.about-section .container {
+.about .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -147,11 +160,11 @@ body {
 
 /* SERVICE SECTION */
 
-.service-section {
+.service {
   padding: 5rem 0 12rem;
 }
 
-.service-section .container {
+.service .container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 11.5rem;
@@ -175,6 +188,16 @@ body {
   width: 16rem;
   height: 5rem;
   /* padding: 1rem 1.5rem; */
+}
+
+.btn--service:hover {
+  background-color: #e06733;
+  color: #fff;
+}
+
+.btn--service-active {
+  background-color: #e06733;
+  color: #fff;
 }
 
 .service-card {
@@ -204,12 +227,12 @@ body {
 
 /* PRICES SECTION */
 
-.prices-section {
+.prices {
   background-color: #fff;
   padding: 4rem 0 11.5rem;
 }
 
-.prices-section .container {
+.prices .container {
   display: grid;
   grid-template-columns: 1fr 1fr 2fr;
 }
@@ -293,6 +316,11 @@ body {
   font-weight: 700;
 }
 
+.btn--prices:hover {
+  background-color: #e06733;
+  color: #fff;
+}
+
 .prices-img {
   width: 15.2rem;
   height: 17.5rem;
@@ -300,11 +328,11 @@ body {
 
 /* CONTACT SECTION */
 
-.contacts-section {
+.contacts {
   margin-top: 6rem;
 }
 
-.contacts-section .container {
+.contacts .container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-items: center;
@@ -329,6 +357,11 @@ body {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 
+.city-drop--active {
+  background-color: #c1e698;
+  box-shadow: none;
+}
+
 .city-list-name {
   font-size: 2rem;
   color: #717171;
@@ -341,6 +374,10 @@ body {
   background-color: #aea1a1;
   color: #fff;
   border-radius: 50%;
+}
+
+.contact-icon--active {
+  background-color: #8ba07e;
 }
 
 /* FOOTER SECTION */
