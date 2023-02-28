@@ -21,6 +21,7 @@ body {
 
 .container {
   padding: 0 11rem;
+  margin: 0 auto;
 }
 
 .header .container {
@@ -335,4 +336,54 @@ body {
   background-color: #aea1a1;
   color: #fff;
   border-radius: 50%;
+}
+
+/* FOOTER SECTION */
+
+.footer {
+  padding: 4rem 0;
+  background-color: #fff;
+}
+
+.footer .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+}
+
+.footer-column--left {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.footer-text {
+  font-size: 2rem;
+}
+
+.footer-column--middle {
+  justify-self: center;
+}
+
+.footer-img {
+  height: 5rem;
+}
+
+.footer-column--right {
+  justify-self: end;
+  display: flex;
+  gap: 2rem;
+}
+
+.footer-icon {
+  width: 3.2rem;
+  height: 3.2rem;
+  color: #000;
+}
+
+.footer-link:link,
+.footer-link:hover,
+.footer-link:active,
+.footer-link:visited {
+  color: #000;
 }
