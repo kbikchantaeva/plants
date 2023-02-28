@@ -291,3 +291,48 @@ body {
   width: 15.2rem;
   height: 17.5rem;
 }
+
+/* CONTACT SECTION */
+
+.contacts-section {
+  margin-top: 6rem;
+}
+
+.contacts-section .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+}
+
+.contact-img {
+  width: 40rem;
+  height: 45rem;
+}
+
+.cities-container {
+  width: 45rem;
+  height: 28.5rem;
+  align-self: center;
+}
+
+.city-drop {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.7rem 3rem;
+  background-color: #d6e7d2;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.city-list-name {
+  font-size: 2rem;
+  color: #717171;
+}
+
+.contact-icon {
+  width: 12px;
+  height: 12px;
+  padding: 4px;
+  background-color: #aea1a1;
+  color: #fff;
+  border-radius: 50%;
+}
