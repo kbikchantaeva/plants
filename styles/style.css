@@ -14,12 +14,6 @@ body {
   background-color: #edf2ec;
 }
 
-/* HEADER SECTION */
-
-.header {
-  padding: 4.2rem 0;
-}
-
 .section {
   width: 144rem;
 }
@@ -27,6 +21,12 @@ body {
 .container {
   padding: 0 11rem;
   margin: 0 auto;
+}
+
+/* HEADER SECTION */
+
+.header {
+  padding: 4.2rem 0;
 }
 
 .header .container {
@@ -72,8 +72,8 @@ body {
 }
 
 .welcome .container {
-  gap: 22.4rem;
   display: flex;
+  gap: 22.4rem;
 }
 
 .img--welcome {
@@ -329,7 +329,7 @@ body {
 /* CONTACT SECTION */
 
 .contacts {
-  margin-top: 6rem;
+  padding-top: 6rem;
 }
 
 .contacts .container {
