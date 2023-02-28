@@ -7,6 +7,7 @@
 html {
   font-family: "Inter", sans-serif;
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -122,6 +123,10 @@ body {
 
 .about-text {
   flex-basis: 60.5rem;
+}
+
+.about-text .heading--secondary-serif {
+  margin-bottom: 4rem;
 }
 
 .heading--secondary-serif {
